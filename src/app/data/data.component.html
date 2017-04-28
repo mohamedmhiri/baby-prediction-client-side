@@ -1,0 +1,31 @@
+<div class="ui raised very padded text container segment">
+  <h2 class="ui header">Baby State Prediction</h2>
+  <div>
+    <form class="ui form" #f="ngForm" novalidate>
+      <div class="form-row">
+        <input type="text" name="temperature" [(ngModel)]="data.temperature" placeholder="Insert your baby's temperature"/>
+      </div>
+      <br>
+      <div class="form-row">
+        <input type="text" name="heartbeat" [(ngModel)]="data.heartbeat" placeholder="Insert your baby's heartbeat"/>
+      </div>
+      <br>
+      <!--<div class="form-row">
+        <button (click)="onSubmit(data)" ></button>
+      </div>-->
+      <div class="ui animated button" (click)="onSubmit(data)" tabindex="0">
+        <div class="visible content" >Go</div>
+        <div class="hidden content">
+          <i class="right arrow icon"></i>
+        </div>
+    </div>
+    </form>
+    <div *ngIf="payLoad" class="form-row">
+      <strong>Happy to serve you :D</strong><br>
+      <p *ngIf="payLoad == 1">Sorry your baby is sick</p>
+      <p *ngIf="payLoad == 0">Thanks to Allah yur baby is fine</p>
+     <!-- {{payLoad = 0 ? 'Sorry your baby is sick': 'Thank to Allah yur baby is fine'}}-->
+    </div>
+  </div>
+</div>
+

@@ -1,28 +1,43 @@
-# Data
+# Baby Prediction Client Side
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+## Description
 
-## Development server
+## Installation
+first install git and node
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+then open your Bash (Unix like) or your command prompt (Windows) 
 
-## Code scaffolding
+and type: git clone https://github.com/mohamedmhiri/yet-another-bookstore.git 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+Now go under that directory with "cd yet-another-bookstore" and type "npm install"
 
-## Build
+finally start the project with "npm start"
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-## Running unit tests
+## Description
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Baby Prediction Client side is an Angular4 application
+## Installation
+First Install GIT from https://git-scm.com/,
 
-## Running end-to-end tests
+Install NODE from https://nodejs.org/en/download/ 
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+then open your Bash (Unix like) or your command prompt (Windows) 
 
-## Further help
+and navigate with "cd" until you get under "my-folder".
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Type: git clone https://github.com/mohamedmhiri/baby-prediction-client-side.git 
+
+Now go under that directory with "cd baby-prediction-client-side"
+
+and type "npm install" to install the Baby Prediction server-side project's dependencies and Finally "npm run start" to run it.
+
+Feel free to update it.
+
+#### You can mail us if you have any advices
+mohamed_mhiri's mail: med.mhiri.5@gmail.com
+
+maryem_ben_yahia's mail: ben.yahia.maryem@gmail.com
+
+## If you have any suggestion, please contact us :D
+

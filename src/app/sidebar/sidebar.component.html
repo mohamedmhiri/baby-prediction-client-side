@@ -1,0 +1,55 @@
+<!--<div class="ui top attached demo menu">
+  <a class="item">
+    <i class="sidebar icon"></i>
+    Menu
+  </a>
+</div>-->
+<div class="ui bottom attached segment pushable">
+  <div [ngClass]="['ui', 'visible', 'inverted left', 'vertical', 'sidebar menu']">
+    <a class="item" (onClick)="collapse()">
+      <i class="content icon"></i>
+      <br>
+      <br>
+    </a>
+    <a class="item" routerLink="home">
+      <i class="home icon"></i>
+      Home
+      <br>
+      <br>
+    </a>
+    <a class="item" routerLink="data">
+      <i class="tree icon"></i>
+      Decision Tree
+      <br>
+      <br>
+    </a>
+    <a class="item" routerLink="forest">
+      <i class="tree icon"></i>
+      <i class="tree icon"></i>
+      <i class="tree icon"></i>
+      Random Forest
+      <br>
+      <i class="tree icon"></i>
+      <i class="tree icon"></i>
+      <i class="tree icon"></i>
+      <br>
+    </a>
+    <a class="item" routerLink="entropy">
+      <i class="tree icon"></i>
+      Entropy Decision Tree 
+      <br>
+      <br>
+    </a>
+    <a class="item" routerLink="gini">
+      <i class="tree icon"></i>
+      Gini Decision Tree
+      <br>
+      <br>
+    </a>
+  </div>
+  <div class="pusher">
+    <div class="ui basic segment">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
